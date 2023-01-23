@@ -4,6 +4,9 @@ p{font-family: 'Libre Baskerville', serif;
     font-family: 'Merriweather', serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;}
+    body{
+        background-image: linear-gradient(#bca1d1, #a980cd, #b299c7, #d17395, #e69fc4);
+    }
     
 .flexible{
     display: flex;
@@ -30,7 +33,7 @@ width: 80%;
 }
 .button1{
     text-decoration: none;
-    background-image: linear-gradient(#00e1fd,#FF1493);
+    background-image: linear-gradient(#9900ff,#ff6699);
     color: white;
     padding: 10px 10px;
     border-radius: 7px;
@@ -47,7 +50,7 @@ width: 80%;
     }
     .button2{
         text-decoration: none;
-        background-image: linear-gradient(#00e1fd,#FF1493);
+        background-image: linear-gradient(#9900ff,#ff6699);
         color: white;
         padding: 10px 10px;
         border-radius: 7px;
@@ -61,12 +64,12 @@ footer{
 }
 #color1{
     border-left: 7px solid;
-    border-image: linear-gradient(#FF1493,#00e1fd);
+    border-image: linear-gradient(#9900ff,#ff6699);
     border-image-slice: 1;
 }
 #color2{
     border-left: 7px solid;
-    border-image: linear-gradient(#FF1493,#00e1fd);
+    border-image: linear-gradient(#9900ff,#ff6699);
     border-image-slice: 1;
 }
 #new{
